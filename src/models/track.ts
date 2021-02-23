@@ -1,10 +1,11 @@
-import {Video} from './youtube';
+import {Channel, Video} from './youtube';
 import * as util from '@/util';
+import axios from "axios";
 
 export interface TrackJson {
   id: number;
   title: string;
-  singer: string;
+  singers: string[];
   artist: string;
   videoid: string;
   publishedAt: string;
@@ -17,7 +18,8 @@ export class Track {
   readonly uuid: string;
   readonly id: number;
   readonly title: string;
-  readonly singer: string;
+  readonly singers: string[];
+  readonly singerChannels: Channel[] = [];
   readonly artist: string;
   readonly video: Video;
   readonly publishedAt: string;
@@ -35,7 +37,7 @@ export class Track {
     this.uuid = uuid || util.generateUuid();
     this.id = trackJson.id;
     this.title = trackJson.title;
-    this.singer = trackJson.singer;
+    this.singers = trackJson.singers;
     this.artist = trackJson.artist;
     this.publishedAt = trackJson.publishedAt;
     this.tags = trackJson.tags;
@@ -49,7 +51,7 @@ export class Track {
     return new Track({
       id: this.id,
       title: this.title,
-      singer: this.singer,
+      singers: this.singers,
       artist: this.artist,
       videoid: this.video.id,
       publishedAt: this.publishedAt,
@@ -83,7 +85,7 @@ export class Track {
     for (const keyword of keywords) {
       const target = [
         this.title,
-        this.singer,
+        this.singers,
         this.artist,
         videoTitle,
         channelName,

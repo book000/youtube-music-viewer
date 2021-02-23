@@ -123,7 +123,7 @@
         ).map(track => {
           keywords.add(track.title);
           keywords.add(track.artist);
-          keywords.add(track.singer);
+          keywords.add(track.singers.join(', '));
           track.tags.map(tag => keywords.add(tag));
         });
         return {

@@ -4,7 +4,7 @@
       rounded
       @click="onClick"
     >
-      <div class="card-thumbnail">
+      <div class="card-thumbnail" v-if="card.thumbnailUrl != null">
         <v-img
           :src="card.thumbnailUrl"
           height="120"

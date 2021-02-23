@@ -33,7 +33,7 @@
 
           <v-card-subtitle
             class="track-info-item track-artist"
-            v-text="track.singer"
+            v-text="track.singers.join(', ')"
           ></v-card-subtitle>
 
           <v-card-text class="track-info-item video-info">

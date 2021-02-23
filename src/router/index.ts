@@ -21,7 +21,7 @@ const routes: Array<RouteConfig> = [
   {
     path: '/covers',
     name: 'Covers',
-    component: () => import('../views/Covers.vue')
+    component: () => import('../views/Singers.vue')
   },
   {
     path: '/favorites',

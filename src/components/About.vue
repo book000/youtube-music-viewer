@@ -4,18 +4,13 @@
       <h3>
         <v-icon>mdi-github</v-icon>
         <a
-          href="https://github.com/yay4ya/akikunouta"
+          href="https://github.com/book000/youtube-music-viewer"
           target="_blank"
-        >yay4ya/akikunouta</a>
+        >book000/youtube-music-viewer</a>
       </h3>
       <p>
-        このアプリは<b>にじさんじ</b>所属のバーチャルライバー<b>鈴谷アキ</b>
-        <a href="https://twitter.com/aki_suzuya" target="_blank"><v-icon size="1.2em">mdi-twitter</v-icon></a>
-        <a href="https://www.youtube.com/channel/UCpnvhOIJ6BN-vPkYU9ls-Eg?sub_confirmation=1" target="_blank"><v-icon size="1.2em">mdi-youtube</v-icon></a>
-        くんのお歌をより手軽に聞くためのWebアプリです。
-        アキくんがこれまでに配信や歌ってみた動画で歌ったお歌を集めて1曲ずつ聞けるようにしました。
-        <b>いいね</b>や<b>プレイリスト</b>機能をつかってお気に入りのお歌を管理することもできます。
-        あなたの大好きなお歌を見つけよう！
+        このアプリは <a href="https://github.com/yay4ya">yay4ya</a> さんが制作した <a href="https://github.com/yay4ya/akikunouta">アキくんのおうた</a> を拡張し、複数人の歌唱者に対応させたものです。<br />
+        素晴らしい作品を制作し、それをオープンソースとしてアップしてくれた <a href="https://github.com/yay4ya">yay4ya</a>さん へ心からの感謝を。
       </p>
     </section>
 
@@ -45,6 +40,33 @@
             mdi-github
           </v-icon>
           yay4ya
+        </a>
+      </p>
+      <h3>機能拡張者</h3>
+      <p>
+        <b>Tomachi</b> :
+        <a
+          href="https://twitter.com/book000"
+          target="_blank"
+        >
+          <v-icon
+            size="1.2em"
+          >
+            mdi-twitter
+          </v-icon>
+          @book000
+        </a>
+
+        <a
+          href="https://github.com/book000"
+          target="_blank"
+        >
+          <v-icon
+            size="1.2em"
+          >
+            mdi-github
+          </v-icon>
+          book000
         </a>
       </p>
     </section>

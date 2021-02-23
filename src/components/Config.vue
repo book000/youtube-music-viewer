@@ -37,14 +37,6 @@
           </v-card-text>
         </v-card>
       </v-tab-item>
-
-      <v-tab-item>
-        <v-card flat>
-          <v-card-text>
-            <BugReport/>
-          </v-card-text>
-        </v-card>
-      </v-tab-item>
     </v-tabs>
   </v-container>
 </template>
@@ -56,7 +48,6 @@
     components: {
       About: () => import('./About.vue'),
       DataManager: () => import('./DataManager.vue'),
-      BugReport: () => import('./BugReport.vue'),
     }
   });
 </script>

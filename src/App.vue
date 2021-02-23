@@ -71,8 +71,8 @@
               </router-link>
 
               <router-link to="/covers" class="router-link">
-                <v-icon>mdi-record-circle</v-icon>
-                <span>歌ってみた</span>
+                <v-icon>mdi-account-multiple</v-icon>
+                <span>歌唱者</span>
               </router-link>
 
               <router-link to="/favorites" class="router-link">
@@ -99,7 +99,7 @@
                 {{ playingTrack.title + ' / ' + playingTrack.artist}}
               </div>
               <div class="playing-track-singer">
-                {{ playingTrack.singer }}
+                {{ playingTrack.singers.join(", ") }}
               </div>
             </div>
           </div>

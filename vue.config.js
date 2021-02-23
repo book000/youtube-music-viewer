@@ -1,12 +1,12 @@
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'production' ? '/akikunouta/' : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? '/youtube-music-viewer/' : '/',
   transpileDependencies: [
     'vuetify'
   ],
   pages: {
     index: {
       entry: 'src/main.ts',
-      title: 'アキくんのおうた',
+      title: 'youtube-music-viewer',
     },
   },
 }

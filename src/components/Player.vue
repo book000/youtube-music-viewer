@@ -32,7 +32,7 @@
          class="playing-track-singer"
          target="_blank"
         >
-          {{ playingTrack? playingTrack.singer : ''}}
+          {{ playingTrack? playingTrack.singers.join(', ') : ''}}
         </div>
       </div>
 

@@ -18,7 +18,7 @@ export default class Search {
 
       const target = [
         track.title,
-        track.singer,
+        track.singers,
         track.artist,
         videoTitle,
         channelName,

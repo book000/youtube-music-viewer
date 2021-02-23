@@ -22,7 +22,7 @@ DATA_PATH = "src/data/tracks.json"
 class Track:  # pylint: disable=too-many-instance-attributes
     id: int
     title: str
-    singer: str
+    singers: List[str]
     artist: str
     videoid: str
     publishedAt: str

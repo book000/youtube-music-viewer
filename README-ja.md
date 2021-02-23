@@ -1,12 +1,12 @@
 # youtube-music-viewer
 
-[日本語のREADMEはこちらから](README-ja.md)
+[Click here for English README](README.md)
 
-This is an extended version of [yay4ya/akikunouta](https://github.com/yay4ya/akikunouta) that supports multiple singers.
+複数の歌唱者をサポートする [yay4ya/akikunouta](https://github.com/yay4ya/akikunouta) の拡張バージョンです。
 
 ## Acknowledgements
 
-Heartfelt thanks to [yay4ya](https://github.com/yay4ya) for creating something so wonderful and uploading it as open source.
+素晴らしい作品を制作し、それをオープンソースとしてアップしてくれた [yay4ya](https://github.com/yay4ya) さんへ心からの感謝を。
 
 ## Requirements
 
@@ -21,12 +21,12 @@ Heartfelt thanks to [yay4ya](https://github.com/yay4ya) for creating something s
 
 ### Inserted Tracks
 
-I have added [2020 Nijisanji Unit Song Festival](https://www.youtube.com/watch?v=A6jnAB4c7xQ), which is a recent and much sung live performance, to each song.
+最近かつ複数人が多く歌唱したライブである [2020 にじさんじユニット歌謡祭](https://www.youtube.com/watch?v=A6jnAB4c7xQ) を各楽曲ごとに追加しています。
 
 ### Add Track Script
 
-I have placed a Python script that adds a track to `scripts/add_track.py`.  
-Run it in a UTF-8 shell such as WSL Bash.
+`scripts/add_track.py` にトラックを追加するPythonスクリプトを配置しました。
+WSL Bash などの UTF-8 シェルで実行してください。
 
 ```shell
 $ python3 scripts/add_track.py
@@ -58,4 +58,4 @@ Is this OK? [Y/n]: y
 
 ## License
 
-The license for this project is [MIT License](LICENSE).
+このプロジェクトのライセンスは [MIT License](LICENSE) です。
