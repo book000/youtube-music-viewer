@@ -33,7 +33,7 @@ $ python3 scripts/add_track.py
 Note: This program should be run from a UTF-8 shell.
 
 Input Track title: LOVE & JOY
-Input singers (comma separated): 本間ひまわり,鈴原るる
+Input singers (comma separated): 本間ひまわり,でびでび・でびる
 Input Track artist: 木村由姫
 Input Video url: https://www.youtube.com/watch?v=A6jnAB4c7xQ
 Input Published date (e.g. 2020-01-01): 2020-12-29
@@ -45,7 +45,7 @@ Input End time (sec): 878
 
 Id:             0
 Title:          LOVE & JOY
-Singers:        ['本間ひまわり', '鈴原るる']
+Singers:        ['本間ひまわり', 'でびでび・でびる']
 Artist:         木村由姫
 Video:          2020 にじさんじユニット歌謡祭 / #NJU歌謡祭 (A6jnAB4c7xQ)
 PublishedDate:  2020-12-29

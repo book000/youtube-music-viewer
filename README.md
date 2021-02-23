@@ -45,7 +45,7 @@ Input End time (sec): 878
 
 Id:             0
 Title:          LOVE & JOY
-Singers:        ['本間ひまわり', '鈴原るる']
+Singers:        ['本間ひまわり', 'でびでび・でびる']
 Artist:         木村由姫
 Video:          2020 にじさんじユニット歌謡祭 / #NJU歌謡祭 (A6jnAB4c7xQ)
 PublishedDate:  2020-12-29
